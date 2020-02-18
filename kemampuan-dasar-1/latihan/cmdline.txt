@@ -1,0 +1,489 @@
+Microsoft Windows [Version 10.0.18363.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Mansyur Salim>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::adba:14f:ea3b:be26%8
+   IPv4 Address. . . . . . . . . . . : 192.168.100.17
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%8
+                                       192.168.100.1
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::79a8:a86e:71cc:1301%4
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+C:\Users\Mansyur Salim>systeminfo
+
+Host Name:                 MANSYURSALIM
+OS Name:                   Microsoft Windows 10 Enterprise
+OS Version:                10.0.18363 N/A Build 18363
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Mansyur Salim
+Registered Organization:
+Product ID:                00329-10286-44768-AA195
+Original Install Date:     31/12/2019, 03:33:51
+System Boot Time:          15/02/2020, 11:29:11
+System Manufacturer:       Acer
+System Model:              Aspire E5-476G
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 142 Stepping 10 GenuineIntel ~1600 Mhz
+BIOS Version:              Insyde Corp. V1.36, 24/07/2018
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     8.069 MB
+Available Physical Memory: 2.874 MB
+Virtual Memory: Max Size:  11.516 MB
+Virtual Memory: Available: 3.909 MB
+Virtual Memory: In Use:    7.607 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\MANSYURSALIM
+Hotfix(s):                 11 Hotfix(s) Installed.
+                           [01]: KB4534132
+                           [02]: KB4513661
+                           [03]: KB4516115
+                           [04]: KB4517245
+                           [05]: KB4521863
+                           [06]: KB4524244
+                           [07]: KB4524569
+                           [08]: KB4528759
+                           [09]: KB4537759
+                           [10]: KB4538674
+                           [11]: KB4532693
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: Intel(R) Dual Band Wireless-AC 3168
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.100.1
+                                 IP address(es)
+                                 [01]: 192.168.100.17
+                                 [02]: fe80::adba:14f:ea3b:be26
+                           [03]: Microsoft Wi-Fi Direct Virtual Adapter
+                                 Connection Name: Local Area Connection* 2
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.137.1
+                                 [02]: fe80::79a8:a86e:71cc:1301
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+C:\Users\Mansyur Salim>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      1.220 K
+Registry                       120 Services                   0     36.916 K
+smss.exe                       428 Services                   0        476 K
+csrss.exe                      656 Services                   0      2.076 K
+wininit.exe                    756 Services                   0      2.396 K
+services.exe                   832 Services                   0      6.132 K
+lsass.exe                      852 Services                   0     14.816 K
+svchost.exe                     84 Services                   0        988 K
+svchost.exe                    592 Services                   0     26.156 K
+fontdrvhost.exe                620 Services                   0        200 K
+svchost.exe                    828 Services                   0     19.280 K
+svchost.exe                   1072 Services                   0      5.088 K
+svchost.exe                   1280 Services                   0      6.456 K
+svchost.exe                   1288 Services                   0      5.632 K
+svchost.exe                   1364 Services                   0      4.400 K
+svchost.exe                   1472 Services                   0      9.236 K
+svchost.exe                   1524 Services                   0      7.188 K
+svchost.exe                   1644 Services                   0     11.096 K
+svchost.exe                   1660 Services                   0      2.124 K
+svchost.exe                   1668 Services                   0      4.600 K
+svchost.exe                   1820 Services                   0      3.972 K
+NVDisplay.Container.exe       1828 Services                   0      8.352 K
+svchost.exe                   1848 Services                   0      2.764 K
+svchost.exe                   1912 Services                   0      6.572 K
+svchost.exe                   1976 Services                   0      1.540 K
+svchost.exe                   1984 Services                   0     98.644 K
+svchost.exe                   1992 Services                   0      3.436 K
+svchost.exe                   2000 Services                   0      3.772 K
+svchost.exe                   2080 Services                   0      4.616 K
+svchost.exe                   2088 Services                   0      8.644 K
+igfxCUIService.exe            2144 Services                   0      3.228 K
+svchost.exe                   2188 Services                   0      6.884 K
+svchost.exe                   2196 Services                   0      4.768 K
+svchost.exe                   2264 Services                   0     15.972 K
+svchost.exe                   2304 Services                   0      6.120 K
+Memory Compression            2404 Services                   0    322.536 K
+svchost.exe                   2460 Services                   0      3.780 K
+svchost.exe                   2468 Services                   0      3.332 K
+svchost.exe                   2564 Services                   0      8.580 K
+svchost.exe                   2656 Services                   0     22.376 K
+svchost.exe                   2772 Services                   0     42.092 K
+svchost.exe                   2780 Services                   0     10.988 K
+svchost.exe                   3068 Services                   0     18.872 K
+svchost.exe                   3628 Services                   0      5.628 K
+svchost.exe                   3660 Services                   0      3.588 K
+svchost.exe                   4076 Services                   0      2.732 K
+svchost.exe                   4084 Services                   0      4.872 K
+svchost.exe                   3868 Services                   0     13.920 K
+svchost.exe                   4136 Services                   0      6.260 K
+spoolsv.exe                   4236 Services                   0      4.412 K
+wlanext.exe                   4280 Services                   0      1.104 K
+conhost.exe                   4288 Services                   0      1.064 K
+svchost.exe                   4308 Services                   0      2.444 K
+IntelCpHDCPSvc.exe            4452 Services                   0      1.996 K
+svchost.exe                   4460 Services                   0     20.492 K
+svchost.exe                   4468 Services                   0      2.788 K
+nvcontainer.exe               4484 Services                   0     14.992 K
+svchost.exe                   4496 Services                   0      8.828 K
+svchost.exe                   4504 Services                   0      1.480 K
+svchost.exe                   4512 Services                   0     40.544 K
+svchost.exe                   4520 Services                   0     13.280 K
+svchost.exe                   4528 Services                   0      1.136 K
+ETDService.exe                4680 Services                   0      1.692 K
+svchost.exe                   4732 Services                   0      1.984 K
+MsMpEng.exe                   4752 Services                   0    260.208 K
+svchost.exe                   4760 Services                   0      1.092 K
+dasHost.exe                   4768 Services                   0     10.692 K
+IntelCpHeciSvc.exe            4848 Services                   0      2.848 K
+AGMService.exe                4928 Services                   0      3.120 K
+AdobeUpdateService.exe        4988 Services                   0      3.256 K
+AGSService.exe                5072 Services                   0      7.076 K
+svchost.exe                   4876 Services                   0      5.180 K
+svchost.exe                   4896 Services                   0      3.924 K
+OfficeClickToRun.exe          5240 Services                   0     29.060 K
+unsecapp.exe                  5712 Services                   0      2.332 K
+svchost.exe                   6544 Services                   0     10.492 K
+svchost.exe                   6676 Services                   0      1.768 K
+svchost.exe                   6824 Services                   0      4.784 K
+dllhost.exe                   7080 Services                   0      3.192 K
+NisSrv.exe                    5748 Services                   0      6.216 K
+svchost.exe                   3880 Services                   0      6.448 K
+svchost.exe                    936 Services                   0     17.504 K
+svchost.exe                   2804 Services                   0      3.020 K
+svchost.exe                   3532 Services                   0     11.304 K
+SearchIndexer.exe             6176 Services                   0     83.116 K
+SecurityHealthService.exe     8984 Services                   0     10.568 K
+GoogleCrashHandler.exe        2220 Services                   0        168 K
+svchost.exe                   5852 Services                   0      1.564 K
+GoogleCrashHandler64.exe      3576 Services                   0        160 K
+svchost.exe                   8992 Services                   0      4.024 K
+SgrmBroker.exe               10088 Services                   0      3.640 K
+svchost.exe                   6276 Services                   0     10.940 K
+svchost.exe                   3580 Services                   0      6.400 K
+svchost.exe                   3764 Services                   0     11.544 K
+svchost.exe                   3116 Services                   0      6.344 K
+svchost.exe                   7288 Services                   0      4.752 K
+svchost.exe                  10336 Services                   0      4.400 K
+svchost.exe                   1932 Services                   0     14.628 K
+PresentationFontCache.exe     2704 Services                   0      1.736 K
+csrss.exe                    11296                            2        896 K
+svchost.exe                   8896 Services                   0     10.384 K
+svchost.exe                   9552 Services                   0      2.864 K
+svchost.exe                  13556 Services                   0      3.196 K
+svchost.exe                  17280 Services                   0      1.736 K
+svchost.exe                  12944 Services                   0      2.152 K
+usocoreworker.exe             9380 Services                   0     12.388 K
+svchost.exe                   2952 Services                   0      3.904 K
+svchost.exe                  18616 Services                   0      1.812 K
+svchost.exe                   9372 Services                   0      2.208 K
+svchost.exe                   8028 Services                   0      3.952 K
+audiodg.exe                  15628 Services                   0     22.648 K
+svchost.exe                  20868 Services                   0      6.876 K
+csrss.exe                    21152 Console                    8      5.416 K
+winlogon.exe                 26148 Console                    8      8.472 K
+fontdrvhost.exe              16448 Console                    8      8.592 K
+dwm.exe                      12624 Console                    8     75.332 K
+NVDisplay.Container.exe      22484 Console                    8     27.112 K
+ETDCtrl.exe                  24324 Console                    8     10.600 K
+nvcontainer.exe               9468 Console                    8     25.816 K
+svchost.exe                   7196 Console                    8     28.764 K
+svchost.exe                  16700 Console                    8     44.656 K
+taskhostw.exe                 6760 Console                    8     20.444 K
+sihost.exe                   24464 Console                    8     24.576 K
+igfxEM.exe                    2796 Console                    8     11.076 K
+explorer.exe                  6812 Console                    8    141.384 K
+svchost.exe                  20684 Console                    8     29.848 K
+ctfmon.exe                   22868 Console                    8     13.404 K
+dllhost.exe                  26224 Console                    8      5.708 K
+StartMenuExperienceHost.e    26100 Console                    8     55.460 K
+RuntimeBroker.exe             5328 Console                    8     21.736 K
+SearchUI.exe                 14244 Console                    8     83.620 K
+RuntimeBroker.exe            13832 Console                    8     37.392 K
+SkypeApp.exe                 22772 Console                    8    204.608 K
+SkypeBackgroundHost.exe      11020 Console                    8     11.020 K
+YourPhone.exe                24728 Console                    8     28.800 K
+RuntimeBroker.exe             9120 Console                    8     23.064 K
+SecurityHealthSystray.exe     5132 Console                    8      7.724 K
+RAVCpl64.exe                  3292 Console                    8     27.156 K
+RAVBg64.exe                   5512 Console                    8     12.716 K
+OneDrive.exe                 16248 Console                    8     44.140 K
+jetbrains-toolbox.exe         9092 Console                    8     58.556 K
+CCXProcess.exe               25248 Console                    8      2.364 K
+node.exe                     14656 Console                    8     35.876 K
+conhost.exe                  21636 Console                    8      4.984 K
+Taskmgr.exe                  24148 Console                    8     47.540 K
+chrome.exe                   11572 Console                    8    184.588 K
+chrome.exe                   25472 Console                    8      8.856 K
+OneDrive.exe                 11000 Console                    8     47.380 K
+Creative Cloud.exe           10404 Console                    8     63.072 K
+chrome.exe                   24016 Console                    8      7.092 K
+SettingSyncHost.exe          13652 Console                    8     12.368 K
+jusched.exe                  26568 Console                    8      5.888 K
+AdobeIPCBroker.exe           23920 Console                    8      9.928 K
+chrome.exe                   10788 Console                    8     51.760 K
+chrome.exe                   24104 Console                    8     39.684 K
+chrome.exe                   25244 Console                    8     46.740 K
+chrome.exe                   21424 Console                    8     34.920 K
+chrome.exe                    8412 Console                    8     31.260 K
+chrome.exe                   22088 Console                    8     32.160 K
+chrome.exe                   23672 Console                    8    304.396 K
+RuntimeBroker.exe             8852 Console                    8      6.836 K
+chrome.exe                   10452 Console                    8     15.304 K
+chrome.exe                   24108 Console                    8     65.640 K
+svchost.exe                  28380 Console                    8     20.056 K
+Adobe Desktop Service.exe    19416 Console                    8     69.632 K
+chrome.exe                   28500 Console                    8    339.648 K
+jetbrains-toolbox-helper.    20196 Console                    8     52.560 K
+Adobe CEF Helper.exe         18764 Console                    8     40.136 K
+CompPkgSrv.exe               15660 Console                    8      7.788 K
+RuntimeBroker.exe             9668 Console                    8     20.812 K
+NVIDIA Web Helper.exe        26820 Console                    8      1.908 K
+ShellExperienceHost.exe      22184 Console                    8     59.556 K
+RuntimeBroker.exe             7176 Console                    8     30.080 K
+CCLibrary.exe                 8108 Console                    8      2.432 K
+node.exe                     12448 Console                    8     37.124 K
+conhost.exe                  17916 Console                    8      4.996 K
+conhost.exe                  21312 Console                    8        700 K
+Adobe CEF Helper.exe           896 Console                    8     46.220 K
+CoreSync.exe                  3480 Console                    8     15.620 K
+rundll32.exe                  6876 Console                    8      7.832 K
+SystemSettingsBroker.exe     16900 Console                    8     26.204 K
+SkypeBridge.exe              14796 Console                    8     54.120 K
+dllhost.exe                  14548 Console                    8     11.952 K
+WhatsApp.exe                 25168 Console                    8     97.716 K
+WhatsApp.exe                  6484 Console                    8      9.112 K
+WhatsApp.exe                  3156 Console                    8     94.400 K
+WhatsApp.exe                 18848 Console                    8    171.892 K
+Telegram.exe                 10400 Console                    8     46.964 K
+svchost.exe                  22988 Services                   0      5.372 K
+SystemSettings.exe           12236 Console                    8        448 K
+ApplicationFrameHost.exe     24460 Console                    8     26.432 K
+WinStore.App.exe             11832 Console                    8        280 K
+RuntimeBroker.exe            21908 Console                    8      7.312 K
+svchost.exe                  23020 Services                   0      8.308 K
+HxOutlook.exe                13444 Console                    8        544 K
+RuntimeBroker.exe             8024 Console                    8     20.572 K
+HxTsr.exe                     7364 Console                    8     15.048 K
+RuntimeBroker.exe              976 Console                    8     15.900 K
+WindowsInternal.Composabl     3516 Console                    8     36.972 K
+Code.exe                      5696 Console                    8     80.904 K
+Code.exe                     15920 Console                    8     70.280 K
+Code.exe                     13364 Console                    8    137.680 K
+Code.exe                     25448 Console                    8     49.560 K
+Code.exe                      8948 Console                    8     36.360 K
+Code.exe                      8644 Console                    8     10.564 K
+chrome.exe                   19036 Console                    8     86.064 K
+smartscreen.exe              11084 Console                    8     23.980 K
+MicrosoftEdge.exe             3016 Console                    8     52.644 K
+browser_broker.exe           28000 Console                    8      7.196 K
+MicrosoftEdgeSH.exe           2028 Console                    8     11.188 K
+MicrosoftEdgeCP.exe           9720 Console                    8     53.368 K
+chrome.exe                   19196 Console                    8     41.552 K
+chrome.exe                   24232 Console                    8    175.216 K
+svchost.exe                  17268 Services                   0      8.340 K
+alg.exe                      14128 Services                   0      6.392 K
+svchost.exe                   9564 Services                   0     15.896 K
+svchost.exe                  19648 Services                   0      6.840 K
+chrome.exe                    9312 Console                    8     89.048 K
+svchost.exe                  21372 Services                   0      8.068 K
+chrome.exe                    8152 Console                    8    121.792 K
+chrome.exe                   14212 Console                    8     91.652 K
+chrome.exe                    3192 Console                    8     22.508 K
+svchost.exe                  21968 Services                   0      5.776 K
+cmd.exe                      10132 Console                    8      3.948 K
+conhost.exe                  12656 Console                    8     18.332 K
+WmiPrvSE.exe                 26796 Services                   0     15.044 K
+WmiPrvSE.exe                 15584 Services                   0      8.116 K
+TrustedInstaller.exe         14740 Services                   0      6.896 K
+TiWorker.exe                 25680 Services                   0     10.680 K
+tasklist.exe                  8692 Console                    8      8.332 K
+
+C:\Users\Mansyur Salim>type
+The syntax of the command is incorrect.
+
+C:\Users\Mansyur Salim>type .angular-config.json
+{
+  "version": 1,
+  "cli": {
+    "analytics": "5ef4a8f6-fdde-4918-8ab5-42632d662756"
+  }
+}
+C:\Users\Mansyur Salim>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.100.17:12119   253:https              ESTABLISHED
+  TCP    192.168.100.17:12120   52.139.250.253:https   ESTABLISHED
+  TCP    192.168.100.17:12127   52.139.250.253:https   ESTABLISHED
+^C
+C:\Users\Mansyur Salim>net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+C:\Users\Mansyur Salim>nslookup
+Default Server:  1.100.168.192.in-addr.arpa
+Address:  192.168.100.1
+
+>
+C:\Users\Mansyur Salim>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+
+C:\Users\Mansyur Salim>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Users\Mansyur Salim>gpresult
+
+GPRESULT [/S system [/U username [/P [password]]]] [/SCOPE scope]
+           [/USER targetusername] [/R | /V | /Z] [(/X | /H) <filename> [/F]]
+
+Description:
+    This command line tool displays the Resultant Set of Policy (RSoP)
+    information for a target user and computer.
+
+Parameter List:
+    /S        system           Specifies the remote system to connect to.
+
+    /U        [domain\]user    Specifies the user context under which the
+                               command should run.
+                               Can not be used with /X, /H.
+
+    /P        [password]       Specifies the password for the given user
+                               context. Prompts for input if omitted.
+                               Cannot be used with /X, /H.
+
+    /SCOPE    scope            Specifies whether the user or the
+                               computer settings need to be displayed.
+                               Valid values: "USER", "COMPUTER".
+
+    /USER     [domain\]user    Specifies the user name for which the
+                               RSoP data is to be displayed.
+
+    /X        <filename>       Saves the report in XML format at the
+                               location and with the file name specified
+                               by the <filename> parameter. (valid in Windows
+                               Vista SP1 and later and Windows Server 2008 and later)
+
+    /H        <filename>       Saves the report in HTML format at the
+                               location and with the file name specified by
+                               the <filename> parameter. (valid in Windows
+                               at least Vista SP1 and at least Windows Server 2008)
+
+    /F                         Forces Gpresult to overwrite the file name
+                               specified in the /X or /H command.
+
+    /R                         Displays RSoP summary data.
+
+    /V                         Specifies that verbose information should
+                               be displayed. Verbose information provides
+                               additional detailed settings that have
+                               been applied with a precedence of 1.
+
+    /Z                         Specifies that the super-verbose
+                               information should be displayed. Super-
+                               verbose information provides additional
+                               detailed settings that have been applied
+                               with a precedence of 1 and higher. This
+                               allows you to see if a setting was set in
+                               multiple places. See the Group Policy
+                               online help topic for more information.
+
+    /?                         Displays this help message.
+
+
+Examples:
+    GPRESULT /R
+    GPRESULT /H GPReport.html
+    GPRESULT /USER targetusername /V
+    GPRESULT /S system /USER targetusername /SCOPE COMPUTER /Z
+    GPRESULT /S system /U username /P password /SCOPE USER /V
+
+C:\Users\Mansyur Salim>netsh
+netsh>
+C:\Users\Mansyur Salim>
