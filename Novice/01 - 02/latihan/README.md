@@ -69,7 +69,7 @@ Latihan :
     - Kemudian buka terminal posisi pada folder Gradle **ketik : - Gradle Build --> jika sukses ketik selanjutnya
                                                                  - Gradle Run --> jika suskses maka akan muncul output sesuai isi
  
- 5. 
+ 5. Exceptions adalah peristiwa yang terjadi selama pelaksanaan suatu program yang mengganggu aliran instruksi normal.
  
 
 
