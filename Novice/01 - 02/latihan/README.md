@@ -1,7 +1,9 @@
 Pertemuan 2
 
 Latihan :
-1. CRC (Cyclic Redundancy Check) adalah algoritme untuk memastikan integritas data dan mengecek kesalahan pada suatu data yang akan ditransmisikan atau disimpan. gambar CRC dapat dibuat di Draw.io secara online. kemudian gambar CRC tersebut akan menjadi acuan untuk mengerjakan kasus nomor 1.
+OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek. Tujuan dari OOP diciptakan adalah untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari. Jadi setiap bagian dari suatu permasalahan adalah objek, nah objek itu sendiri merupakan gabungan dari beberapa objek yang lebih kecil lagi.
+
+1. CRC Cards (Class Responsibility Collaborator) sendiri merupakan kumpulan kartu indeks standar yang telah dibagi menjadi tiga bagian yaitu class, responsibilities, dan collaborator. Sebelum membuat kartu CRC kita sudah harus tahu terlebih dahulu kelas apa saja yang ada dalam sistem yang kita buat, oleh karena itu kita perlu membuat terlebih dahulu Class Diagram dari sistem yang kita analisis.  gambar CRC dapat dibuat di Draw.io secara online. kemudian gambar CRC tersebut akan menjadi acuan untuk mengerjakan kasus nomor 1.
 
 2. - Apa itu Object? sebuah objek adalah bundel perangkat lunak dari status dan perilaku terkait. Objek perangkat lunak sering 
      digunakan untuk memodelkan objek dunia nyata yang Anda temukan dalam kehidupan sehari-hari. 
