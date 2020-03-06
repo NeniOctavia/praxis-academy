@@ -12,7 +12,8 @@ OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorient
      memodelkan keadaan dan perilaku objek dunia nyata. 
      
    - Apa itu Inheritance? Bagian ini menjelaskan bagaimana kelas menurunkan keadaan dan perilaku dari superclasses mereka, dan 
-     menjelaskan cara menurunkan satu kelas dari yang lain menggunakan sintaksis sederhana yang disediakan oleh bahasa pemrograman 
+     menjelaskan cara menurunkan satu kelas dari yang lain menggunakan sintaksis sederhana yang disediakan oleh bahasa 
+     pemrograman 
      Java.
      
    - Apa itu Interface? Bagian ini mendefinisikan antarmuka yang sederhana dan menjelaskan perubahan yang diperlukan untuk setiap 
