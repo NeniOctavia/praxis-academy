@@ -1,6 +1,8 @@
-package latihan1;
 
-class Base2
+    package latihan1;
+    
+    class Base2
+
 {
      public void Display()
      {
@@ -8,11 +10,11 @@ class Base2
      }     
      public static void main(String args[])
      {
-         Base t1 = new Derived();
+         Base2 t1 = new Derived();
          t1.Display();
      }    
 }
-class Derived extends Base
+class Derived extends Base2
 {
      @Override
      public void Display()

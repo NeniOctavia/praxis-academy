@@ -1,25 +1,29 @@
-// A Simple Java program to show working of user defined 
-// Generic functions 
+package latihan2;
 
-class Test 
-{ 
-	// A Generic method example 
-	static <T> void genericDisplay (T element) 
-	{ 
-		System.out.println(element.getClass().getName() + 
-						" = " + element); 
-	} 
+// A Simple java program to demonstrate that NOT using 
+// generics can cause run time exeptions
+import java.util.*;
 
-	// Driver method 
-	public static void main(String[] args) 
-	{ 
-		// Calling generic method with Integer argument 
-		genericDisplay(11); 
+/**
+ * Test2
+ */
+class Test3 {
 
-		// Calling generic method with String argument 
-		genericDisplay("GeeksForGeeks"); 
+    public static void main(String[] args) {
+        // Creatings an Array without any type specified
 
-		// Calling generic method with double argument 
-		genericDisplay(1.0); 
-	} 
+        ArrayList <String> al = new ArrayList<String> ();
+
+        al.add("Sachin");
+        al.add("Rahul");
+        //al.add(10);     // Compiler allows this
+        
+        String s1 = (String)al.get(0);
+        String s2 = (String)al.get(1);
+
+        // Cause Runtime Exception
+        System.out.println((s1));
+        System.out.println((s2));
+
+    }
 }
