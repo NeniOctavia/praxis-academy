@@ -1,21 +1,4 @@
-
-Skip to content
-All gists
-Back to GitHub
-@NeniOctavia
-@sshark sshark/GroceryStore.java
-Last active 3 years ago • Report abuse
-
-1
-
-    0
-
-Code
-Revisions 2
-Stars 1
-A short Java code example to show case Java Generics with wildcard. This code highlights the uses of wildcard "extends" and "super".
-GroceryStore.java
-package org.teckhooi.generics;
+package kasus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -124,20 +107,4 @@ public class GroceryStore {
         return biggestFruit;
     }
 }
-@NeniOctavia
-Attach files by dragging & dropping, selecting or pasting them.
-
-    © 2020 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
