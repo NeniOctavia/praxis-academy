@@ -4,7 +4,7 @@ package latihan2;
  * Test
  */
 
-    class holan{
+    class Si{
 
     // A generic method example
     static <T> void genericDisplay(T element)
