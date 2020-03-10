@@ -1,3 +1,4 @@
+
 package vending;
 
 import java.util.ArrayList;
@@ -47,6 +48,7 @@ public class VendingMachineImpl implements VendingMachine {
         cashInventory.add(coin);
     }
 
+
     @Override
     public Bucket<Item, List<Coin>> collectItemAndChange() {
         Item item = collectItem();
@@ -68,7 +70,7 @@ public class VendingMachineImpl implements VendingMachine {
            
         }
         long remainingBalance = currentItem.getPrice() - currentBalance;
-        throw new NotFullPaidException("Price not full paid, remaining : ",remainingBalance);
+        throw new NotFullPaidException("Price not full paid, remaining : ", remainingBalance);
     }
    
     private List<Coin> collectChange() {
@@ -131,7 +133,7 @@ public class VendingMachineImpl implements VendingMachine {
                     continue;
                    
                 }else{
-                    throw new NotSufficientChangeException("NotSufficientChange,Please try another product");
+                    throw new NotSufficientChangeException("NotSufficientChange, Please try another product");
                 }
             }
         }
