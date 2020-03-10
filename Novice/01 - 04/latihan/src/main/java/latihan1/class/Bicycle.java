@@ -33,5 +33,9 @@ public class Bicycle {
     public void speedUp(int increment) {
         speed += increment;
     }
+
+    public static void main(String[] args) {
+        
+    }
         
 }
