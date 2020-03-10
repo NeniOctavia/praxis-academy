@@ -1,3 +1,5 @@
+package latihan3;
+
 public class Deposit extends ATMMachineMain
 {
     static double deposit;

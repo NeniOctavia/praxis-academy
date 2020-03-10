@@ -1,3 +1,5 @@
+package latihan3;
+
 public class BalanceInquiry extends ATMMachineMain
 {
     static double balance = 0;

@@ -1,3 +1,5 @@
+package latihan3;
+
 public class Withdraw extends ATMMachineMain
 {
     static double withdraw = 0;   
