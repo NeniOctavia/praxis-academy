@@ -9,8 +9,7 @@ public class MainAppRunnable implements Runnable {
 	private final int loopLimit; 
 
 	// Limit till which the counter will run 
-	private MainAppRunnable(int loopLimit) 
-	{ 
+	private MainAppRunnable(int loopLimit) { 
 		this.loopLimit = loopLimit; 
 	} 
 
